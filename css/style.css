@@ -1,13 +1,18 @@
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
 }
 h2, * {
     font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 36px; */
+    
 }
 #header-container {
     display: flex;
     gap: 20px;
+    justify-content: space-around;
+    align-items: space-around;
 
 }
 
@@ -15,15 +20,29 @@ h2, * {
     background-image: linear-gradient(#FEDACC, #FB7C4D);
     flex: 1;
     border-radius: 10px;
-    border: outset thick #D04A02;
-    padding: 10px;
+    border: outset thick #B1B1B1;
+    padding: 10px;                                                                                                                                                                                                                                                                                                                          
 }
+#links {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
 #main-container {
     display: grid;
     grid-template-rows: 1fr;
     /* grid-template-columns: 1fr auto; */
     grid-auto-rows: 1fr;
     background-color: #FEDACC;
+    padding: 30px;
+}
+#main-container > div {
+    background-image: linear-gradient(#FB7C4D, #FEDACC);
+    border-radius: 10px;
+    border: outset thick #B1B1B1;
+    padding: 10px;
+    margin: 5px;
 }
 li {
     list-style: none;
@@ -31,7 +50,7 @@ li {
 
 #main-img {
     border-radius: 200px;
-    border: outset thick #D04A02;
+    border: outset thick #B1B1B1;
 }
 
 footer {
