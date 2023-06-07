@@ -1,0 +1,46 @@
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2, * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header-container {
+    display: flex;
+    gap: 20px;
+
+}
+
+#header-container > div {
+    background-image: linear-gradient(#FEDACC, #FB7C4D);
+    flex: 1;
+    border-radius: 10px;
+    border: outset thick #D04A02;
+    padding: 10px;
+}
+#main-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    /* grid-template-columns: 1fr auto; */
+    grid-auto-rows: 1fr;
+    background-color: #FEDACC;
+}
+li {
+    list-style: none;
+}
+
+#main-img {
+    border-radius: 200px;
+    border: outset thick #D04A02;
+}
+
+footer {
+    display: grid;
+    grid-template: 100px / auto;
+}
+
+footer > div {
+    background-image: linear-gradient(#FB7C4D, #FEDACC);
+    border-radius: 10px;
+    padding: 10px;
+}
